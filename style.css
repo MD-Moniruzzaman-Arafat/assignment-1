@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section */
+
+header {
+    background-image: url('./images/donation13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.header-title {
+    text-align: center;
+    padding: 150px 0px;
+    color: white;
+}
+
+.title {
+    font-size: 60px;
+
+}
+
+.paragraph {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.button {
+    padding: 15px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* main section */
+/* donate today section */
+.donate-section {
+    text-align: center;
+    padding: 100px 200px;
+}
+
+.donate-title {}
+
+.money-amount {
+    display: flex;
+}
+
+.item {
+    font-weight: 700;
+    font-size: 25px;
+    width: 200px;
+    background-color: rgba(223, 177, 177, 0.13);
+    margin: 5px;
+    padding: 50px;
+    border-radius: 5px;
+
+}
+
+.uniq {
+    border: 3px solid blue;
+    color: blue;
+}
+
+.input-fild {
+    width: 800px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+/* our donate plan section */
+.category {
+    display: flex;
+}
+
+.items {
+    background-color: rgba(0, 225, 255, 0.123);
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.item2 {
+    background-color: rgba(38, 0, 255, 0.123);
+
+}
+
+.item3 {
+    background-color: rgba(255, 0, 179, 0.123);
+
+}
+
+.items>h3 {
+    margin: 10px 0;
+}
+
+/* volunteer */
+.volunteer {
+    margin: 0px 100px;
+}
+
+/* get my update */
+.text-fild {
+    background-color: rgba(255, 0, 0, 0.137);
+    padding: 50px;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px;
+}
+
+/* footer section */
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+    color: aliceblue;
+}
+
+footer>h3 {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+footer>p {
+    font-size: 13px;
+}
