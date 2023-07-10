@@ -76,3 +76,43 @@
     line-height: 30px;
     margin: 30px 0;
 }
+
+.instagram-container {
+    margin: 100px 0;
+}
+
+.instagram-title {
+    margin-bottom: 40px;
+}
+
+.instagram-title h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.instagram-title p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.img-container {
+    display: flex;
+    width: 1180px;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.img-container img {
+    width: 300px;
+}
