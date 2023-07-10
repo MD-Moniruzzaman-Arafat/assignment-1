@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+}
+
+.header-container {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.header-content h1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.header-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.header-img img {
+    width: 100%;
+}
