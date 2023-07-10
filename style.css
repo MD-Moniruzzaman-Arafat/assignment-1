@@ -108,11 +108,48 @@
 
 .img-container {
     display: flex;
-    width: 1180px;
+    justify-content: center;
     gap: 10px;
-    margin: 0 auto;
 }
 
 .img-container img {
-    width: 300px;
+    width: 350px;
+}
+
+.latest-deals-container {
+    text-align: center;
+    background-image: url("./image/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 453px;
+}
+
+.latest-deals-content {
+    padding-top: 170px;
+}
+
+.latest-deals-content h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deals-content p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 700px;
+    height: 60px;
+    border: none;
+    padding: 3px;
+    border-radius: 8px;
 }
