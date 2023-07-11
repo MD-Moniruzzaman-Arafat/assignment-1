@@ -89,9 +89,11 @@
 }
 
 .flower img {
-    width: 470px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     gap: 20px;
+    border-radius: 50% 50% 0 0;
+    text-align: center;
 }
 
 .flower a {
@@ -102,15 +104,17 @@
 
 .flower1 img {
     background-color: rgba(167, 33, 98, 0.15);
-    ;
+    padding: 80px 80px 0 80px;
 }
 
 .flower2 img {
     background-color: rgba(5, 151, 160, 0.15);
+    padding: 80px 80px 0 80px;
 }
 
 .flower3 img {
     background-color: rgba(71, 125, 17, 0.15);
+    padding: 80px 80px 0 80px;
 }
 
 .hot-deal-container {
